@@ -1,7 +1,7 @@
 {
-  "name": "template-typescript-package",
+  "name": "rc-cm",
   "version": "0.0.0-development",
-  "description": "A boilerplate repo for publishing typescript packages to npm",
+  "description": "A collection of common react components",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -15,22 +15,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/beeman/template-typescript-package.git"
+    "url": "https://github.com/pavasich/rc-cm.git"
   },
   "keywords": [
     "TypeScript",
-    "Package",
-    "Starter"
+    "React",
+    "Common"
   ],
   "author": {
-    "name": "Bram Borggreve",
-    "email": "borggreve@gmail.com"
+    "name": "Paul Vasich",
+    "email": "paul.vasich@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/beeman/template-typescript-package/issues"
+    "url": "https://github.com/pavasich/rc-cm/issues"
   },
-  "homepage": "https://github.com/beeman/template-typescript-package#readme",
+  "homepage": "https://github.com/pavasich/rc-cm#readme",
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && npm test",
